@@ -2,6 +2,12 @@
 :root {
     --tittle-font: 'Press Start 2P', monospace;
     --main-font: 'Inter-Variable', sans-serif;
+    --text-color-dark: #000000;
+    --text-color-light: #fff;
+    --outline-color: #000000;
+    --background: #fff;
+    --icon-like-color: #FF0000;
+    --icon-unlike-color: #000000;
     --background-gradient: 
         repeating-linear-gradient(
         to right,

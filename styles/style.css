@@ -89,6 +89,12 @@
   opacity: 50%;
 }
 
+@supports (text-stroke: 4px #fff) {
+  span {
+    text-stroke: 1px #ffffff;
+  }
+}
+
 .image { /*Главное изображение*/
   width: 100%;
   display: block;
@@ -131,7 +137,6 @@
   z-index: 2;
   width: 21px;
   fill: currentColor;
-  position: relative;
   transition: fill 0.5s ease-in-out;
 }
 
@@ -226,20 +231,7 @@
   align-items: center;
   justify-content: center;
   align-self: center;
-}
-
-.card__like-button {
-  display: flex;
-  background-color: #ffffff;
-  outline: none;
-  border: 2px solid black;
-  padding-inline: 35px;
-  padding-block-start: 12.5px;
-  padding-block-end: 10.5px;
-  align-items: center;
-  justify-content: center;
-  align-self: center;
-}
+} 
 
 .button_save {
   display: flex;
@@ -384,7 +376,7 @@
   filter: hue-rotate(90deg) contrast(40%);
 }
 
-@media (width <= 375px){
+@media (width <= 375px) {
   .button_save {
     flex-direction: column;
   }

@@ -6,15 +6,7 @@
 ✦ card__icon-button — для кнопки, оборачивающей иконку
 ✦ card__icon-button — для кнопки, оборачивающей иконку
 ✦ is-liked — для обозначения состояния лайкнутой иконки в виде сердца
-✦ button__text — для обозначения текстового элемента внутри кнопки
-
-*/
-
-/*
-* {
-  outline: 1px solid green;
-}*/
-
+✦ button__text — для обозначения текстового элемента внутри кнопки*/
 .page {
   display: flex;
   flex-direction: column;
@@ -173,7 +165,7 @@
 .button:focus-visible {
   outline: none;
   transition: box-shadow 0.3s ease;
-  box-shadow: 2px 2px 0 0 black;  
+  box-shadow: 2px 2px 0 0 black;
 }
 
 .card_button { /*Иконка + LIKE*/
@@ -220,7 +212,7 @@
 
 .like-icon {
   transform-box: fill-box;
-  transform-origin: center; 
+  transform-origin: center;
 }
 
 .card__like-button { /*LIKE*/
@@ -375,7 +367,6 @@
 .hue-rotate {
   filter: hue-rotate(30deg);
 }
-
 
 .invert {
   filter: invert(80%);

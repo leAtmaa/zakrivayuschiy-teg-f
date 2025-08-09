@@ -1,1 +1,1 @@
-https://github.com/leAtmaa/zakrivayuschiy-teg-f
+https://leatmaa.github.io/zakrivayuschiy-teg-f/
